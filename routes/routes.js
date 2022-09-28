@@ -5,6 +5,7 @@ const routes = express.Router();
 
 
 routes.post("/todos", addTodo)
+
 routes.get("/todos", getTodo)
 routes.get("/todos/:id", toggleTodo)
 routes.put("/todos/:id", updateTodo)
